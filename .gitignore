@@ -1,3 +1,12 @@
-.vscode
-airflow\.env 
-airflow\logs
+# Ignore everything
+*
+
+# But not these
+!*/
+!airflow-docker/
+!airflow-docker/dags/
+!airflow-docker/dags/**
+!airflow-docker/docker-compose.yml
+!docs/
+!docs/**
+!README.md
